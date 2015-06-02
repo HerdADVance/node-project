@@ -1,5 +1,6 @@
 {
 	"name" : "Node-Project-Membership",
+	"version" : "0.0.1",
 	"author" : "Alex Vance",
 	"description" : "Membership system patterned after Devise",
 	"dependencies" : {
