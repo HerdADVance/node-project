@@ -13,7 +13,6 @@ var User = function(args){
 	user.currentLoginAt = args.currentLoginAt || new Date;
 	user.authenticationToken = args.authenticationToken || utility.randomString(18);
 
-	console.log(user);
 	return user;
 
 };
