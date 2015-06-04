@@ -8,7 +8,7 @@ var Application = function(args){
 	app.message = null;
 	
 	app.isValid = function(){
-		return app.status === "valid";
+		return app.status == "valid";
 	};
 
 	app.isInvalid = function(){

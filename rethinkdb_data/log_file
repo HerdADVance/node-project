@@ -1,0 +1,103 @@
+2015-06-03T13:08:29.807681000 0.006564s info: Initializing directory /Users/alex/code/node-project/membership/rethinkdb_data
+2015-06-03T13:08:29.807927000 0.006810s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/alex/code/node-project/membership/rethinkdb_data' did not already exist or is empty.)
+2015-06-03T13:08:29.807995000 0.006878s info: Running rethinkdb 1.15.1 (CLANG 6.0 (clang-600.0.51))...
+2015-06-03T13:08:29.818021000 0.016906s info: Running on Darwin 13.4.0 x86_64
+2015-06-03T13:08:29.818150000 0.017033s info: Using cache size of 100 MB
+2015-06-03T13:08:29.818277000 0.017160s warn: Cache size does not leave much memory for server and query overhead (available memory: 190 MB).
+2015-06-03T13:08:29.818304000 0.017187s warn: Cache size is very low and may impact performance.
+2015-06-03T13:08:29.818317000 0.017199s info: Loading data from directory /Users/alex/code/node-project/membership/rethinkdb_data
+2015-06-03T13:08:29.964549000 0.163432s info: Listening for intracluster connections on port 29015
+2015-06-03T13:08:29.965767000 0.164650s info: Listening for client driver connections on port 28015
+2015-06-03T13:08:29.965873000 0.164756s info: Listening for administrative HTTP connections on port 8080
+2015-06-03T13:08:29.965903000 0.164785s info: Listening on addresses: 127.0.0.1, ::1
+2015-06-03T13:08:29.965913000 0.164796s info: To fully expose RethinkDB on the network, bind to all addresses
+2015-06-03T13:08:29.965923000 0.164806s info: by running rethinkdb with the `--bind all` command line option.
+2015-06-03T13:08:29.965939000 0.164821s info: Server ready
+2015-06-03T14:50:47.084550000 6137.103245s info: Server got SIGINT from pid 286, uid 501; shutting down...
+2015-06-03T14:50:47.085406000 6137.104101s info: Shutting down client connections...
+2015-06-03T14:50:47.088047000 6137.106743s info: All client connections closed.
+2015-06-03T14:50:47.088092000 6137.106787s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-03T14:50:47.088107000 6137.106802s info: Storage engine shut down.
+2015-06-03T14:50:48.736926000 0.007551s notice: Running rethinkdb 2.0.2 (CLANG 6.0 (clang-600.0.57))...
+2015-06-03T14:50:48.766727000 0.037344s notice: Running on Darwin 13.4.0 x86_64
+2015-06-03T14:50:48.766788000 0.037403s notice: Loading data from directory /Users/alex/code/node-project/membership/rethinkdb_data
+2015-06-03T14:50:48.825025000 0.095641s notice: Migrating existing cluster metadata to the new RethinkDB 1.16 format...
+2015-06-03T14:50:48.837027000 0.107643s notice: Migrating existing auth metadata to the new RethinkDB 1.16 format...
+2015-06-03T14:50:48.857198000 0.127813s info: Automatically using cache size of 100 MB
+2015-06-03T14:50:48.857220000 0.127835s warn: Cache size does not leave much memory for server and query overhead (available memory: 488 MB).
+2015-06-03T14:50:48.857225000 0.127840s warn: Cache size is very low and may impact performance.
+2015-06-03T14:50:48.857989000 0.128604s notice: Listening for intracluster connections on port 29015
+2015-06-03T14:50:48.859593000 0.130209s notice: Listening for client driver connections on port 28015
+2015-06-03T14:50:48.859685000 0.130300s notice: Listening for administrative HTTP connections on port 8080
+2015-06-03T14:50:48.859689000 0.130304s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-03T14:50:48.859692000 0.130307s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-03T14:50:48.859695000 0.130310s notice: Server ready, "localhost_3gi" 4407cb93-f011-4013-b5dd-250598d33dd2
+2015-06-03T20:30:30.820267000 8839.494742s notice: Server got SIGINT from pid 286, uid 501; shutting down...
+2015-06-03T20:30:30.823376000 8839.497851s notice: Shutting down client connections...
+2015-06-03T20:30:30.826147000 8839.500622s notice: All client connections closed.
+2015-06-03T20:30:30.826169000 8839.500643s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-03T20:30:30.847925000 8839.522401s notice: Storage engine shut down.
+2015-06-03T20:30:32.402234000 0.020508s notice: Running rethinkdb 2.0.2 (CLANG 6.0 (clang-600.0.57))...
+2015-06-03T20:30:32.445192000 0.063462s notice: Running on Darwin 13.4.0 x86_64
+2015-06-03T20:30:32.445273000 0.063542s notice: Loading data from directory /Users/alex/code/node-project/membership/rethinkdb_data
+2015-06-03T20:30:32.486173000 0.104442s info: Automatically using cache size of 100 MB
+2015-06-03T20:30:32.486182000 0.104451s warn: Cache size does not leave much memory for server and query overhead (available memory: 925 MB).
+2015-06-03T20:30:32.486187000 0.104455s warn: Cache size is very low and may impact performance.
+2015-06-03T20:30:32.487525000 0.105794s notice: Listening for intracluster connections on port 29015
+2015-06-03T20:30:32.489522000 0.107791s notice: Listening for client driver connections on port 28015
+2015-06-03T20:30:32.489686000 0.107955s notice: Listening for administrative HTTP connections on port 8080
+2015-06-03T20:30:32.489688000 0.107957s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-03T20:30:32.489693000 0.107961s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-03T20:30:32.489697000 0.107965s notice: Server ready, "localhost_3gi" 4407cb93-f011-4013-b5dd-250598d33dd2
+2015-06-03T20:58:36.308403000 1683.877228s notice: Server got SIGINT from pid 286, uid 501; shutting down...
+2015-06-03T20:58:36.308497000 1683.877321s notice: Shutting down client connections...
+2015-06-03T20:58:36.308636000 1683.877460s notice: All client connections closed.
+2015-06-03T20:58:36.308643000 1683.877468s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-03T20:58:36.314482000 1683.883307s notice: Storage engine shut down.
+2015-06-03T20:58:37.057417000 0.004300s notice: Running rethinkdb 2.0.2 (CLANG 6.0 (clang-600.0.57))...
+2015-06-03T20:58:37.097894000 0.044776s notice: Running on Darwin 13.4.0 x86_64
+2015-06-03T20:58:37.097957000 0.044835s notice: Loading data from directory /Users/alex/code/node-project/membership/rethinkdb_data
+2015-06-03T20:58:37.148985000 0.095864s info: Automatically using cache size of 100 MB
+2015-06-03T20:58:37.149007000 0.095886s warn: Cache size does not leave much memory for server and query overhead (available memory: 613 MB).
+2015-06-03T20:58:37.149024000 0.095903s warn: Cache size is very low and may impact performance.
+2015-06-03T20:58:37.149767000 0.096646s notice: Listening for intracluster connections on port 29015
+2015-06-03T20:58:37.151273000 0.098152s notice: Listening for client driver connections on port 28015
+2015-06-03T20:58:37.151439000 0.098317s notice: Listening for administrative HTTP connections on port 8080
+2015-06-03T20:58:37.151448000 0.098326s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-03T20:58:37.151468000 0.098346s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-03T20:58:37.151472000 0.098350s notice: Server ready, "localhost_3gi" 4407cb93-f011-4013-b5dd-250598d33dd2
+2015-06-04T00:10:49.657805000 7770.588008s notice: Removing file /Users/alex/code/node-project/membership/rethinkdb_data/d52dcb73-276e-41dc-a8e6-c3a54c3b6a2b
+2015-06-04T00:13:20.361944000 7921.287713s notice: Server got SIGINT from pid 286, uid 501; shutting down...
+2015-06-04T00:13:20.362488000 7921.288256s notice: Shutting down client connections...
+2015-06-04T00:13:20.362680000 7921.288448s notice: All client connections closed.
+2015-06-04T00:13:20.362686000 7921.288454s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-04T00:13:20.364738000 7921.290507s notice: Storage engine shut down.
+2015-06-04T00:13:22.784650000 0.009051s notice: Running rethinkdb 2.0.2 (CLANG 6.0 (clang-600.0.57))...
+2015-06-04T00:13:22.832370000 0.056767s notice: Running on Darwin 13.4.0 x86_64
+2015-06-04T00:13:22.832424000 0.056819s notice: Loading data from directory /Users/alex/code/node-project/membership/rethinkdb_data
+2015-06-04T00:13:22.882645000 0.107041s info: Automatically using cache size of 100 MB
+2015-06-04T00:13:22.882654000 0.107049s warn: Cache size does not leave much memory for server and query overhead (available memory: 623 MB).
+2015-06-04T00:13:22.882659000 0.107054s warn: Cache size is very low and may impact performance.
+2015-06-04T00:13:22.884190000 0.108586s notice: Listening for intracluster connections on port 29015
+2015-06-04T00:13:22.886588000 0.110983s notice: Listening for client driver connections on port 28015
+2015-06-04T00:13:22.886701000 0.111096s notice: Listening for administrative HTTP connections on port 8080
+2015-06-04T00:13:22.886709000 0.111104s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-04T00:13:22.886713000 0.111108s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-04T00:13:22.886717000 0.111112s notice: Server ready, "localhost_3gi" 4407cb93-f011-4013-b5dd-250598d33dd2
+2015-06-04T00:14:15.624130000 52.846968s notice: Server got SIGINT from pid 286, uid 501; shutting down...
+2015-06-04T00:14:15.624281000 52.847119s notice: Shutting down client connections...
+2015-06-04T00:14:15.624542000 52.847381s notice: All client connections closed.
+2015-06-04T00:14:15.624549000 52.847387s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-04T00:14:15.634029000 52.856867s notice: Storage engine shut down.
+2015-06-04T00:14:16.593536000 0.003989s notice: Running rethinkdb 2.0.2 (CLANG 6.0 (clang-600.0.57))...
+2015-06-04T00:14:16.597650000 0.008101s notice: Running on Darwin 13.4.0 x86_64
+2015-06-04T00:14:16.597799000 0.008248s notice: Loading data from directory /Users/alex/code/node-project/membership/rethinkdb_data
+2015-06-04T00:14:16.654667000 0.065117s info: Automatically using cache size of 100 MB
+2015-06-04T00:14:16.654676000 0.065126s warn: Cache size does not leave much memory for server and query overhead (available memory: 591 MB).
+2015-06-04T00:14:16.654680000 0.065130s warn: Cache size is very low and may impact performance.
+2015-06-04T00:14:16.655495000 0.065945s notice: Listening for intracluster connections on port 29015
+2015-06-04T00:14:16.657066000 0.067515s notice: Listening for client driver connections on port 28015
+2015-06-04T00:14:16.657164000 0.067614s notice: Listening for administrative HTTP connections on port 8080
+2015-06-04T00:14:16.657165000 0.067615s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-04T00:14:16.657169000 0.067618s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-04T00:14:16.657172000 0.067621s notice: Server ready, "localhost_3gi" 4407cb93-f011-4013-b5dd-250598d33dd2
